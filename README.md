@@ -49,19 +49,32 @@ left join tabela_de_produtos on itens_notas_fiscais.codigo_do_produto = tabela_d
 left join tabela_de_vendedores on notas_fiscais.MATRICULA = tabela_de_vendedores.MATRICULA;
 
 
-
+Assim ficamos com a tabela constando número da nota, quantidade vendida por nota, preço de venda unitário por nota, data da venda, bairro, cidade, estado do cliente, nome do produto, valor total vendido do produto.
+  
 <img src=images/pbdc_002.png>
+  
+Carregamos o bando de dados no Power BI e colocamos as credenciais de acesso ao banco.   
 
 <img src=images/pbdc_001.png>
   
+Selecionamos as opções avançadas e inserimos nossa consulta SQL.
+
+  
 <img src=images/pbdc_003.png>
+  
+Assim carregamos a tabela com a nossa consulta com apenas os dados necessários para os visuais que o cliente solicitou.
 
 <img src=images/pbdc_004.png>
 
-<img src=images/pbdc_005.png>
+Como podemos verificar todos os campos necessários forram carregados no detalhe das colunas disponíveis de dados.
+  
+
+  <img src=images/pbdc_006.png>
+  
+  <img src=images/pbdc_005.png>
 
 
-<img src=images/pbdc_006.png>
+
 
 <img src=images/pbdc_007.png>
 
