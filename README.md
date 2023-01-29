@@ -120,18 +120,17 @@ Ao Selecionar o ano desejado vimos que o relatório responde nos mostrando os da
 
 ## Recursos Usados
 
-  - Importação de Database
-  - Limpeza de dados
-  - Criação de um DataFrame
-  - Análise de parâmetros estatísticos
-  - Análise de gráficos
-  - Construção de um modelo de regressão linear
-  - Teste e validação deste modelo
+  - Construção de uma consulta SQL
+  - Crianção de um template
+  - Criação de botões personalizados
+  - Criação de visuais
+  - Criação de indicadores
+  - Construção de um dashboard para atender as necessidades do cliente
   
 
 ## Links
 
-  - Repositório: https://github.com/Alexandremsn/Ricks_Diamonds
+  - Repositório: https://github.com/Alexandremsn/Dash_Comercial
   - Se for encontrado um bug, favor entrar em contato alexandremsneto1986@gmail.com
 
 
