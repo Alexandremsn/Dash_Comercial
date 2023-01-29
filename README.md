@@ -68,37 +68,54 @@ Assim carregamos a tabela com a nossa consulta com apenas os dados necessários 
 
 Como podemos verificar todos os campos necessários forram carregados no detalhe das colunas disponíveis de dados.
   
+<img src=images/pbdc_005.png>
 
-  <img src=images/pbdc_006.png>
+Elaboramos um template para comportar todos nosso visuais.
   
-  <img src=images/pbdc_005.png>
+<img src=images/pbdc_007.jpg> 
+  
+Começamos criando nosso primeiro visual o gráfico de linhas de vendas por período.
+  
+<img src=images/pbdc_006.png>
+  
+  
+
+Agora criamos o visual um gráfico de colunas indicando o número de unidades vendidas.
+Optamos por este gráfico pois ao selecionar os dados separadamente podemos ver o destaque da fração selecionada x total.
 
 
 
-
-<img src=images/pbdc_007.png>
 
 <img src=images/pbdc_008.png>
 
+Criamos um gráfico por bairro pois como atendemos apenas cidades de São Paulo e Rio de Janeiro, segregar por bairro pode ser interessante quando visualizarmos os vendedores individualmente.
+  
 
 <img src=images/pbdc_009.png>
 
+Um gráfico de rosca para verificar a participação nas vendas de cada produto.  
 
 <img src=images/pbdc_010.png>
 
-
+Por último um cartão indicando o valor total em reais das vendas.
+  
 <img src=images/pbdc_011.png>
 
-
+Criamos botões para os vendedores um botão para limpar os indicadores, e um menu suspenso para selecionar o ano desejado. Criamos um indicador para cada vendedor, e um indicador geral. Adicionamos a ação em cada botão.
+  
 <img src=images/pbdc_012.png>
 
-
+Unimos todo com o template e ficamos com este resultado.
+  
 <img src=images/pbdc_013.png>
 
+Agora no ambiente publicado temos a visualização tal como o usuário final, clicamos no botão e vimos que o indicador do vendedor é ativado.  
 
 <img src=images/pbdc_014.png>
 
-<img src=images/pbdc_015.png>
+Ao Selecionar o ano desejado vimos que o relatório responde nos mostrando os dados do vendedor no ano selecionado. 
+  
+<img src=images/pbdc_015a.png>
 
 
 ## Recursos Usados
