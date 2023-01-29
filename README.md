@@ -1,8 +1,8 @@
 
 <div align="center">
-<img src="images/Fresh-orange-juice-in-glass-on-transparent-PNG.png" width="400">
+<img src="images/clipart867608.png" width="150">
 
-# Dashboard Comercial (readme em construção)
+# Dashboard Comercial Hipotética Natural(readme em construção)
 
 <div align="left">
 Criação de um Dashboard Simples com Power BI, compondo uma consulta em SQL e criando um dashboard para a área comercial, mostrando a participação de seus vendedores . 
@@ -26,14 +26,27 @@ Os softwares  usados neste projeto foram:
 
 Será descrito abaixo através de textos e imagens.
 
-Para esta projeto usaremos duas bases de dados, a primeira servirá para treinar e testar o nosso modelo a segunda para usar efetivamente nosso modelo, o resultado será feito o upload em um site que avaliará o sucesso de nosso modelo.
+As tabelas estão disponíveis neste repositório, foram importados anteriormente.
 
-Primeiramente realizamos a importação da base e verificamos o seu estado.
+Vamos em um primeiro momento focar na solicitação do cliente para elaborar uma consulta que vai nos trazer apenas os dados necessários para os visuais desejados.
 
-<img src=images/pbdc_001.png>
+O cliente possui 3 vendedores, e quer acompanhar o desenvolvimento individual das vendas destes vendedores.
+O cliente quer saber:
+* Quantidade vendida por mês no ano selecionado.
+* Total vendido em reais no período.
+* Total vendido por mês no ano selecionado.
+* Participação das vendas por produto
+* Participação das vendas por região
+
+Para atender esta solicitação elaboramos a consulta abaixo:
+
+
+
 
 <img src=images/pbdc_002.png>
 
+<img src=images/pbdc_001.png>
+  
 <img src=images/pbdc_003.png>
 
 <img src=images/pbdc_004.png>
