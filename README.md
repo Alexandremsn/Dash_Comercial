@@ -41,6 +41,13 @@ O cliente quer saber:
 Para atender esta solicitação elaboramos a consulta abaixo:
 
 
+use sucos_vendas;
+select itens_notas_fiscais.numero, itens_notas_fiscais.quantidade, itens_notas_fiscais.preco, notas_fiscais.DATA_VENDA, tabela_de_clientes.estado, tabela_de_clientes.cidade, tabela_de_clientes.bairro, tabela_de_produtos.NOME_DO_PRODUTO, tabela_de_vendedores.nome , (itens_notas_fiscais.preco * itens_notas_fiscais.preco) as valor from itens_notas_fiscais
+join notas_fiscais on itens_notas_fiscais.NUMERO = notas_fiscais.numero
+left join tabela_de_clientes on notas_fiscais.cpf = tabela_de_clientes.cpf
+left join tabela_de_produtos on itens_notas_fiscais.codigo_do_produto = tabela_de_produtos.CODIGO_DO_PRODUTO
+left join tabela_de_vendedores on notas_fiscais.MATRICULA = tabela_de_vendedores.MATRICULA;
+
 
 
 <img src=images/pbdc_002.png>
